@@ -1,0 +1,330 @@
+:root{
+    --ecriture:#EADFD7;
+    --background:#262626;
+
+}
+
+*{
+    font-family: Montserrat, sans-serif;
+    background: var(--background);
+}
+
+
+
+
+/* ----------------------------------------------------------------------HEADER-------------------------- */
+
+
+.txt-logo{
+    margin-left: 25%;
+    color:var(--ecriture); 
+    text-decoration: none;
+    display: inline-flex;
+}
+.txt-logo:hover{
+    color: var(--ecriture);
+}
+.txt-logo b {
+    position: relative;
+    background-color: transparent;
+    transform: translateY(25%);
+}
+
+#logo{
+    width: 50px;
+    height: auto;
+}
+
+
+#menu{
+    margin-left: 140px;
+ 
+}
+
+
+#navB{
+    color:var(--ecriture); 
+    background: transparent;
+}
+
+
+/* Barre de recherche */
+.form{
+
+    position: relative;
+}
+.form .fa-search{
+
+    position: absolute;
+    top:20px;
+    left: 20px;
+    color:black;
+    background-color: transparent;
+    margin-left: 50px;
+}
+
+.form-input{
+   margin-left: 60px;
+    height: 55px;
+    width: auto;
+    border-radius: 10px;
+}
+
+#day{
+    width: 40px;
+    margin-left: 250px;
+    background: transparent;
+    position: relative;
+}
+
+
+
+
+
+
+
+/* -------------------------------------------BODY --------------- */
+#mainContent{
+    width: 100%;
+    border: 2px solid white;
+}
+
+#Colo-1{
+    margin-top: 100px;
+    margin-left: 3%;
+    color: var(--ecriture);
+    background: none;
+}
+.title{
+    font-weight: bold;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.buy{
+    color: var(--background);
+    background-color:var(--ecriture);
+    font-family: Montserrat, sans-serif;
+    width: 200px;
+    height:50px;
+    border-radius: 25px;
+    border: transparent;
+
+}
+
+.fleche{
+    background: none;
+    width: 30px;
+    height: auto;
+    left: 40px;
+} 
+
+
+
+
+#Colo-2{
+    position: relative;
+    height: 90vh;
+}
+
+.centerRowMain{
+    position: relative;
+    top: 10%;
+}
+.rond-palmier{
+    position: absolute;
+    z-index: 1;
+    width: 350px;
+    height: auto;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: none;
+}
+
+.bubbletea{
+    position: absolute;
+    background: none;
+    z-index: 2;
+    width: 200px;
+    height: auto;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    rotate: -15deg;
+}
+
+
+
+
+
+#Colo-3{
+    position: relative;
+    top: 100px;
+    height: 500px;
+    left: -70px;
+   
+}
+
+
+
+.Rightrowmain1{
+    position: relative;
+    display: inline-flex;
+  
+
+}
+
+.sippy-cuts{
+    width: 120px;
+    height: auto;
+    background: transparent;
+    transform: translateX(-20PX);  
+}
+
+.List{
+
+    margin-top: 10px;
+    transform: translateX(-60px);
+    list-style-type: none;
+    background: transparent;
+    
+}
+
+
+.Rightrowmain2{
+    position: relative;
+    display: inline-flex;
+}
+
+
+.Donut{
+    width: 120px;
+    height: auto;
+    background: transparent;
+    transform: translateX(-20PX);  
+}
+
+
+.List2{
+    margin-top: 10px;
+    transform: translateX(-60px);
+    list-style-type: none;
+    background: transparent;
+     
+}
+
+.Rightrowmain3{
+    position: relative;
+    display: inline-flex;
+    width: 300px;
+}
+
+
+.Cookies{
+    width: 120px;
+    height: auto;
+    background: transparent;
+    transform: translateX(-20PX);  
+}
+
+.List3{
+    margin-top: 10px;
+    transform: translateX(-60px);
+    list-style-type: none;
+    background: transparent;
+}
+
+
+.small-description{
+
+     
+    font-size: x-small;
+    color: var(--ecriture);
+}
+
+
+h3{
+   font-weight: bold;
+   color:var(--ecriture); ;
+}
+
+.parallelogramme{
+    z-index: 4;
+    top: -55%;
+    width: 60%;
+    height: 200px;
+    position: relative;
+	left: 15%;
+	background:var(--ecriture);
+    transform: rotateZ(-2deg);
+    border-radius: 20px;
+    
+}
+#boissonsTroi{
+    position: relative;
+    width: 50%;
+    left: 45%; 
+    top: -100%;
+    transform: translateX(-50%); 
+    z-index: 5;
+    background: transparent;
+    
+}
+
+#colim{
+    background: transparent;
+    position: relative;
+}
+
+#colim1{
+    position: relative;
+    background: transparent;
+}
+
+#colim2{
+   
+    position: relative;
+    background: transparent;
+}
+
+.boisson{
+    width: 100%;
+    height: auto;
+    background: transparent;
+    position: relative;
+    align-items: center     ;
+    transform: rotate(-10deg);
+}
+
+.boisson-1{
+    width: 100%;
+    background: transparent;
+    height: auto;
+    background: none;
+    position: relative;
+    align-items: center;
+    transform: rotate(15deg);
+}
+
+.boisson-2{
+    width: 100%;
+    background: transparent;
+    height: auto;
+    position: relative;
+    align-items: center;
+    transform: rotate(10deg);
+    
+}
+
+
+
+
+
+
+
+
+
+html { overflow-y: hidden; } 

@@ -1,0 +1,321 @@
+
+/* MOible */
+@media (max-width:400px)  {
+ 
+
+    /* Navbar For Dekstop  */
+.navbar{display: none;}
+
+:root{
+
+
+  --ecriture:none;
+  --background:none;
+
+
+}
+
+*{
+  background: var(--background);
+
+
+}
+
+
+#mainContent{
+  position: relative;
+  z-index: 200;
+  background-color:#EADFD7;;
+
+}
+
+
+#ContaineMobile{
+
+  position: absolute;
+  top: -5%;
+  right: 5%;
+  z-index: 1000;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Menu BURGER*/
+
+
+
+.hamburger {
+
+    position: absolute;
+    top: 5em;
+    right: 5%;
+    margin-left: -2em;
+    margin-top: -45px;
+    width: 2em;
+    height: auto;
+    z-index: 5;
+  }
+  
+  .hamburger div {
+  
+    position: relative;
+    width: 3em;
+    height: 7px;
+    border-radius: 3px;
+    background-color: black;
+    margin-top: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* Nav Styles */
+
+  .navor {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color:  #eadfd7cb;
+    top: -100%; left: 0; right: 0; bottom: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0);
+  }
+  .navor-wrapper {
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 100%;
+  }
+  .trait {
+    text-align: left;
+    margin-left: 25%;
+  }
+  .trait .am {
+
+ 
+    text-decoration: none;
+    font-size: bold;
+    color: black;
+    font-size: 2em;
+    display: inline-block;
+    margin-top: 1.25em;
+    transition: color 0.2s ease-in-out;
+    letter-spacing: 1px;
+
+  }
+  .trait .am:before {
+    content: '';
+    height: 0;
+    position: absolute;
+    width: 0.25em;
+    background-color: white;
+    left: -0.5em;
+    transition: all 0.2s ease-in-out;
+  }
+  .trait .am:hover {
+    color: white;
+  }
+  .trait .am:hover:before {
+    height: 100%;
+  }
+  
+
+  /* Animations */
+
+  #toggle:checked + .hamburger .top-bun {
+    transform: rotate(-45deg);
+    margin-top: 25px;
+  }
+  #toggle:checked + .hamburger .bottom-bun {
+    opacity: 0;
+    transform: rotate(45deg);
+  }
+  #toggle:checked + .hamburger .meat {
+    transform: rotate(45deg);
+    margin-top: -7px;
+  }
+  
+  #toggle:checked + .hamburger + .navor {
+    top: 0;
+    transform: scale(1);
+  }
+  
+  #toggle{display: none;}
+
+
+.nav-wrapper{background: none;}
+
+
+
+/* End of Menu Burger  */
+
+
+
+/* Debut de l'image du produit et son arrière plan */
+#Colo-2{
+
+  left: 80px;
+  transform: translateY(60px);
+  border: solid black;
+  display: inline-block;
+  height: 250px;
+  width: 220px;
+  position: absolute;
+
+}
+
+
+
+.rond-palmier{
+  border: solid black;
+  width: 200px;
+}
+
+.bubbletea{
+  border: solid black;
+  width: 120px;
+}
+/* Fin de l'image du produit et son arrière plan  */
+
+
+
+
+
+
+/* Debut de la description du produit  */
+#Colo-1{
+  width:375px;
+  display: inline-block;
+  transform: translateY(200px);
+  border: solid black;
+  height: 400px;
+  
+}
+
+.title{
+  border: solid black;
+  width: 230px;
+  height: auto;
+  color: #DB6179;
+
+}
+
+#description{
+  transform: translateY(-20px);
+  border: solid black;
+  position: relative;
+}
+
+.price{
+border: solid black;
+width: 100px;
+transform: translateY(-50px);
+
+}
+#dollars{
+  color: rgb(29, 169, 29);
+}
+
+
+
+.buy{
+  position: relative;
+  border: solid black;
+  background: gray;
+  transform: translateX(50px);
+  top: -50px
+
+
+}
+
+/* Fin du Produit et de la description */
+
+.parallelogramme{
+  position: relative;
+  top: 280px;
+  width: 90%;
+  background-color: rgb(255, 14, 14);
+  border: solid black;
+  z-index: 10px;
+}
+
+#Seconde-rangemobile{
+  border: solid black;
+  background-color: #ff0033;
+  
+
+}
+
+/* Debut de parallélogramme a placer  */
+
+
+
+
+
+
+
+/* Fin du parallélogramme a placer  */
+
+
+
+
+
+
+
+
+
+
+/* -------- */
+
+
+
+
+
+#boissonsTroi{
+  display: none;
+}
+
+#Colo-3{
+  display: none;
+}
+
+#Seconde-range{
+  display: none;
+}
+
+
+
+
+
+
+}
+
+/* END OF MOBILE 400PX  */
+
+
+
+
+
+
+
+
+
+
+/* DEKSTOP*/
+@media (min-width:768px){
+#navbarMobile{display: none}
+#ContaineMobile{display: none;}
+#mobilenav{display: none;}
+#Seconde-rangemobile{display: none;}
+
+    
+}
