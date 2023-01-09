@@ -19,3 +19,21 @@ switchThemeBtn.addEventListener('click' , () => {
 
 
 // Navbar ( Menu burger ) REPONSIVE 
+
+
+
+
+
+// TEST JAVASCRIPT , Agrandir et faire tourner le png ON CLICK
+
+// function Mafonction() {
+//     var boissonm = document.querySelector(".boisson-2");
+//     boissonm.style.width="300px";
+//     boissonm.style.top="-100px";
+//     boissonm.style.left="-150px";
+//     boissonm.style.rotate="-40deg";
+    
+
+// }
+
+// document.querySelector(".boisson-2").addEventListener("click",Mafonction) ;

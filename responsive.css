@@ -2,21 +2,25 @@
 /* MOible */
 @media (max-width:400px)  {
  
+#burgerboss{display: none;}
+
+#test-2{display: none;}
+#test-3{display: none;}
+#day{display: none;}
+
+
 
     /* Navbar For Dekstop  */
-.navbar{display: none;}
+
 
 :root{
-
-
   --ecriture:none;
   --background:none;
-
-
 }
 
+
 *{
-  background: var(--background);
+background: linear-gradient(#e8b9ff,#5638f9) ;
 
 
 }
@@ -28,10 +32,27 @@
   background-color:#EADFD7;;
 
 }
+#logo{
+  background: none;
+  width: 100px;
+  height: auto;
+  animation: Rool 800ms ease 0s  normal forwards;
+}
+
+@keyframes Rool {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px) rotate(-200deg);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0) rotate(0deg);
+	}
+}
 
 
 #ContaineMobile{
-
   position: absolute;
   top: -5%;
   right: 5%;
@@ -41,7 +62,22 @@
 
 
 
+.nameso{
+  display: none;
+  }
 
+
+.txt-logo{
+  background: none;
+  transform: translateX(100%);
+  height: auto;
+}
+
+#test{background: none;}
+
+#navcolor{
+  background: none;
+}
 
 
 
@@ -55,7 +91,7 @@
 
 
 .hamburger {
-
+    background: none;
     position: absolute;
     top: 5em;
     right: 5%;
@@ -80,10 +116,11 @@
   /* Nav Styles */
 
   .navor {
+
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color:  #eadfd7cb;
+
     top: -100%; left: 0; right: 0; bottom: 0;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
@@ -96,12 +133,13 @@
     height: 100%;
   }
   .trait {
+    background: none;
     text-align: left;
     margin-left: 25%;
   }
   .trait .am {
 
- 
+ background: none;
     text-decoration: none;
     font-size: bold;
     color: black;
@@ -113,6 +151,7 @@
 
   }
   .trait .am:before {
+  
     content: '';
     height: 0;
     position: absolute;
@@ -149,7 +188,7 @@
     transform: scale(1);
   }
   
-  #toggle{display: none;}
+ 
 
 
 .nav-wrapper{background: none;}
@@ -162,28 +201,51 @@
 
 /* Debut de l'image du produit et son arrière plan */
 #Colo-2{
-
   left: 80px;
   transform: translateY(60px);
-  border: solid black;
   display: inline-block;
   height: 250px;
   width: 220px;
   position: absolute;
+  background: none;
 
 }
 
 
 
 .rond-palmier{
-  border: solid black;
+  left: -10px;
   width: 200px;
+  animation: myAnim 3s ease 0s normal forwards;
+  
 }
 
-.bubbletea{
-  border: solid black;
-  width: 120px;
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: rotate(-540deg) scale(2);
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotate(0) scale(1);
+	}
 }
+
+
+
+
+
+.bubbletea{
+  top: -50px;
+  width: 150px;
+ 
+}
+
+
+
+
+
 /* Fin de l'image du produit et son arrière plan  */
 
 
@@ -196,13 +258,13 @@
   width:375px;
   display: inline-block;
   transform: translateY(200px);
-  border: solid black;
+
   height: 400px;
   
 }
 
 .title{
-  border: solid black;
+background: none;
   width: 230px;
   height: auto;
   color: #DB6179;
@@ -210,52 +272,114 @@
 }
 
 #description{
+  background: none;
   transform: translateY(-20px);
-  border: solid black;
   position: relative;
 }
 
 .price{
-border: solid black;
+background: none;
 width: 100px;
 transform: translateY(-50px);
 
 }
 #dollars{
   color: rgb(29, 169, 29);
+  background: none;
 }
-
-
-
+ 
 .buy{
   position: relative;
-  border: solid black;
-  background: gray;
-  transform: translateX(50px);
-  top: -50px
+  background: linear-gradient(#E19737, #DA4D80);
+left: 18%;
+  top: -50px;
+  animation: pulse 2s ease 0s infinite normal none;
+}
 
+@keyframes pulse {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
 
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
 }
 
 /* Fin du Produit et de la description */
-
-.parallelogramme{
-  position: relative;
-  top: 280px;
-  width: 90%;
-  background-color: rgb(255, 14, 14);
-  border: solid black;
-  z-index: 10px;
-}
-
-#Seconde-rangemobile{
-  border: solid black;
-  background-color: #ff0033;
-  
-
-}
-
+/* ------------------------------------------- */
 /* Debut de parallélogramme a placer  */
+
+ .Allright
+{display: none;
+}
+
+
+ .parallelogramme{ 
+  background: linear-gradient(#DA4D80, #E19737);
+
+  position: absolute;
+  width: 70%;
+  top: 780px;
+
+
+} 
+
+#boissonsTroi{
+  position: relative;
+  top: -250px;
+  left: 50%; 
+  align-items: center;
+  width: 300px;
+ } 
+ 
+.boisson{
+  background: none;
+  width: 150px;
+  height: auto;
+  top: -60px;
+  rotate: -10deg;
+  left: -40px;}
+
+.boisson-1{
+  background: none;
+  width: 150px;
+  height: auto;
+  top: -60px;
+  left: -30px;
+}
+
+.boisson-2{
+  background: none;
+  width: 150px;
+  height: auto;
+  top: -60px;
+  left: -5px;
+  rotate: 25deg;
+}
+
+
+
+
+
 
 
 
@@ -280,26 +404,13 @@ transform: translateY(-50px);
 
 
 
-#boissonsTroi{
-  display: none;
-}
-
-#Colo-3{
-  display: none;
-}
-
-#Seconde-range{
-  display: none;
-}
-
-
-
-
-
-
-}
 
 /* END OF MOBILE 400PX  */
+
+}
+
+
+
 
 
 
@@ -316,6 +427,7 @@ transform: translateY(-50px);
 #ContaineMobile{display: none;}
 #mobilenav{display: none;}
 #Seconde-rangemobile{display: none;}
+
 
     
 }
